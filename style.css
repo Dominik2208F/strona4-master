@@ -1,0 +1,300 @@
+* {
+    margin:0;
+    padding:0
+}
+
+body {
+    background-image: url("tło2.jpg");
+    width:100vw;
+    height: 1080wh;
+    background-size:cover;
+}
+#wrapper{
+    background-color:rgb(241, 237, 237);
+    max-width:1000px;
+    height:2010px;
+    margin: 0 auto;
+     
+}
+#naglowek{
+    background-image: url("BMW-E36_4-scaled.jpg");
+    width:100%;
+    height: 55vh;
+    margin: 0 auto;
+    background-size: cover;
+    
+    
+}
+ .h1{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    position: relative; top: 350px; left: 650px;  /* przesuwanie wewnętrz div*/ 
+    color: chocolate;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+.h2{
+
+border-bottom:black solid;
+display:block;
+text-align: center;
+margin-left: 5cm;
+width:800px;
+margin-left:200px;
+font-family: 'Pacifico', cursive;
+}
+
+
+#sterowanie{
+    background-color:beige;
+    width:20%;   /* dlatego że to jest w wraperze 1000px to 20% to 200px, na dole masz sekcjagłowna 80% to 800 */
+    height:1452px;
+    float:left;
+    transition: all 0.3s ease-in-out 0s;
+    
+  
+}
+
+.p:hover{
+ transform: scale(1.2);
+ background-color: brown;
+}
+
+ .p {
+     font-size:20px;
+     padding-bottom:10px;
+     padding-top: 10px;
+     border-bottom: solid black;
+     margin:0 50px;
+     transition: all 0.3s ease-in-out 0s;
+     font-family: 'Pacifico', cursive;
+     
+ }   
+    
+ .zdjecie img {
+    
+    
+    padding-top:20px;
+    padding-left:10px;
+    box-sizing:border-box;  /* to jest niezbędne żęby dobrze liczył 33% i paddingi nie powodowały odsunięcia */
+    height:230px;
+    width: 320px;
+    margin-left:1cm;
+    transition: all 0.3s ease-in-out 0s;
+    
+    
+}
+
+.zdjecie img:hover{
+ transform: rotate(5deg) scale(1.1)
+
+}
+
+.p1{
+ padding-bottom:10px;
+ background:  rgb(241, 237, 237);
+ text-align:justify;
+ border-right: 10px gray solid;
+ font-family: 'Pacifico', cursive;
+ 
+
+
+}
+
+.p2{
+
+padding-bottom:10px;
+background:  rgb(241, 237, 237);
+text-align:justify;
+border-left: 10px gray solid;
+font-family: 'Pacifico', cursive;
+}
+
+
+.p3{
+padding-bottom:10px;
+background:  rgb(241, 237, 237);
+text-align:justify;
+border-left:10px gray solid;
+font-family: 'Pacifico', cursive;
+}
+
+
+#article {
+    background-color: azure;
+}
+  
+#sekcjaglowna{
+    
+    width:80%;
+    margin-left:200px;
+    
+}
+
+.dwabmw{
+background-color: bisque;
+height: 250px;
+display:flex;
+
+}
+
+.kontener2 {
+    background-color: bisque;  /* to jest odwołanie do całej klasy*/
+    height: 250px;
+    display: flex;
+    align-items:center;
+    
+}
+
+
+/* spróbować zrobić diva na 2 obrazki i zastosować flexa* https://developer.mozilla.org/pl/docs/Learn/CSS/CSS_layout/Flexbox/ */
+
+.e36 {
+    height:240px;
+    width: 400px;
+    
+}
+.e46 {
+    height:240px;
+    width:400px;
+    padding-top: 20px;
+    
+    margin-bottom:20px;
+}
+.e36 img{
+    height: 230px;
+    width:320px;
+    padding-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out 0s;
+    margin-left: 1cm;
+}
+.e46 img{
+    height: 230px;
+    width: 320px;
+    padding-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out 0s;
+    
+}
+
+
+.e46 img:hover{
+ transform: rotate(5deg) scale(1.1)
+}
+ .e36 img:hover{
+ transform: rotate(-5deg) scale(1.1)
+ }
+
+ .p4{
+padding-bottom:10px;
+background:  rgb(241, 237, 237);
+text-align:justify;
+border-right:10px gray solid;
+font-family: 'Pacifico', cursive;
+ }
+ a {
+    text-decoration: none; /* wyrzuca podkreslenie przy linkowaniu */
+    color:black
+    
+ }
+
+ .photo{
+width:300px;
+margin:10px 0;
+background-color: white;
+padding:10px;
+opacity:0.7;
+border: 1px solid silver;
+box-sizing: border-box; /* to spowoduje żę padding nie będzie zmniejszał nam zdjęc*/ 
+display:flex;
+justify-content:space-around;
+flex-wrap: wrap;  /* to powoduje że elementy we flexie czyli dwa divy układają się albo pod sobą, albo koło siebie*/
+
+
+}
+
+.photo img {
+    width:200px;
+    flex-basis: 100%; /* 100 zdjęcia w divie ,ale padding spowoduje obramkowanie go*/
+    height:200px;
+    transition: all 0.3s ease-in-out 0s;
+    
+
+ }
+ .opis{
+     margin-top:10px;
+     
+ }
+ #sekcja2{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     width:80%;
+    margin-left:200px;
+     
+ }
+
+ #sekcja3{
+display:flex;
+ width:100%;
+ justify-content: center;
+
+ 
+ }
+ .ja img{
+    width:400px;
+    flex-basis: 100%; /* 100 zdjęcia w divie ,ale padding spowoduje obramkowanie go*/
+    height:300px;
+    
+ }
+ .ja{
+    width: 420px;
+margin:10px 0;
+background-color: white;
+padding:10px;
+opacity:0.7;
+border: 1px solid silver;
+box-sizing: border-box; /* to spowoduje żę padding nie będzie zmniejszał nam zdjęc*/ 
+display:flex;
+justify-content:space-around;
+flex-wrap: wrap;  /* to powoduje że elementy we flexie czyli dwa divy układają się albo pod sobą, albo koło siebie*/
+transition: all 0.3s ease-in-out 0s;
+ }
+ .photo:hover{
+ opacity:1;
+ transform: scale(1.1);
+    
+ }
+ .ja:hover{
+    opacity:1;
+    transform: scale(1.1);
+    
+ }
+#stopka{
+    width:800px;
+    display:flex;
+    background-color: azure;
+
+
+}
+#logo{
+    width:800px;
+    height:250px;
+}
+#logo img {
+    width:800px;
+    height:250px;
+}
+#logo1 img{
+
+    width:800px;
+    height:250px;
+}
