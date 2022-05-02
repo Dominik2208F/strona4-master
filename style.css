@@ -152,7 +152,7 @@ display:flex;
 }
 
 
-/* spróbować zrobić diva na 2 obrazki i zastosować flexa* https://developer.mozilla.org/pl/docs/Learn/CSS/CSS_layout/Flexbox/ */
+
 
 .e36 {
     height:240px;
@@ -297,4 +297,57 @@ transition: all 0.3s ease-in-out 0s;
 
     width:800px;
     height:250px;
+}
+
+ .ja3 img {
+    height: 450px;
+    width: 350px;
+    
+    padding-left: 10px;
+    padding-top:10px;
+    
+    
+}
+.ja3 {
+    width: 800px;
+    margin-left:200px;
+    display:flex;
+    text-align:justify;
+    
+    
+}
+.p10{
+    margin-top:1cm;
+    text-align:justify;
+    
+}
+.skills img{
+    
+    height: 450px;
+    width: 300px;
+    margin-left: 490px;
+    border-radius: 30px;
+    position: relative; bottom:400px;
+    
+   
+}
+.opis_skilli{
+    text-align: center;
+    padding-top:20px;
+    font-size:large;
+    border-bottom: solid black;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    
+}
+.opis2skilli{
+    
+    height:400px;
+    width:650px;
+    margin-top:20px;
+    
+    
+    
+}
+.p11{
+    margin-top:0.5cm;
 }
