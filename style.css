@@ -344,10 +344,22 @@ transition: all 0.3s ease-in-out 0s;
     height:400px;
     width:650px;
     margin-top:20px;
-    
-    
+    text-align:center;
     
 }
 .p11{
     margin-top:0.5cm;
+    padding-left:10px;
+    
+}
+.p10{
+    margin-left:10px;
+    margin-right:10px;
+}
+.p15{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:20px;
+    text-align:justify;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
